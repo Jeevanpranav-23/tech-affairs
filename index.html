@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Affairs(leader-Harshitha) - IIIT Kancheepuram</title>
+    <link href="https://unpkg.com/lucide@latest" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <img src="./images/techlogo.png" class="mainlogo">
+                <span>Technical affairs</span>
+            </a>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <i data-lucide="menu" class="menu-icon"></i>
+                <i data-lucide="x" class="close-icon hidden"></i>
+            </button>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#wings">Clubs</a>
+                <a href="#events">Events</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+                <a href="#contact" class="btn btn-primary">Join Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="logo-bounce">
+                <img src="./images/techlogo.png" class="hero-logo">
+            </div>
+            <h1>Technical Affairs</h1>
+            <p id="typed-text"></p>
+            <p class="hero-description">
+                Fostering innovation, technical excellence, and collaborative learning
+                through workshops, hackathons, and projects across various domains of technology.
+            </p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">
+                    Learn More <i data-lucide="arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    Join Technical Clubs
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-heading">
+                <h2>About!</h2>
+                <p>A technical society nurturing innovation and excellence at IIIT Kancheepuram</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="./images/mainphoto.png" alt="About Photo">
+                    <div class="image-badge">
+                        <i data-lucide="code"></i>
+                        <span>Established</span>
+                        <span>2007</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <div class="tabs">
+                        <button class="tab active" data-tab="mission">Our Mission</button>
+                        <button class="tab" data-tab="motto">Our Motto</button>
+                        <button class="tab" data-tab="values">Our Values</button>
+                    </div>
+
+                    <div class="tab-content active" id="mission">
+                        <h3><i data-lucide="rocket"></i> Our Mission</h3>
+                        <p>Technical Affairs aims to foster a vibrant technical culture at IIIT Kancheepuram by providing
+                            students with opportunities to explore various domains of technology and innovation.
+                            Our mission is to create a healthy community where people interact, explore, and increase their knowledge with added fun.</p>
+                        <p>Our goal is to empower students with the skills and knowledge necessary to excel in
+                            the rapidly evolving technological landscape and contribute meaningfully to the global
+                            tech community.</p>
+                    </div>
+
+                    <div class="tab-content" id="motto">
+                        <h3><i data-lucide="award"></i> Our Motto</h3>
+                        <p>He who has a why can endure any how.</p>
+                        <p>We aspire to be recognized nationally for our technical prowess, innovative projects,
+                            and the quality of engineers we help shape.</p>
+                    </div>
+
+                    <div class="tab-content" id="values">
+                        <h3><i data-lucide="users"></i> Our Values</h3>
+                        <ul>
+                            <li><strong>Innovation:</strong> Encouraging creative thinking and novel approaches to problem-solving</li>
+                            <li><strong>Collaboration:</strong> Fostering teamwork and knowledge sharing across technical domains</li>
+                            <li><strong>Excellence:</strong> Striving for the highest standards in all our endeavors</li>
+                            <li><strong>Inclusivity:</strong> Creating a welcoming environment for all passionate about technology</li>
+                            <li><strong>Continuous Learning:</strong> Embracing lifelong learning and adaptability</li>
+                        </ul>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <i data-lucide="users"></i>
+                            <div class="stat-value">500+</div>
+                            <div class="stat-label">Active Members</div>
+                        </div>
+                        <div class="stat-card">
+                            <i data-lucide="calendar"></i>
+                            <div class="stat-value">20+</div>
+                            <div class="stat-label">Annual Events</div>
+                        </div>
+                        <div class="stat-card">
+                            <i data-lucide="github"></i>
+                            <div class="stat-value">100+</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-card">
+                            <i data-lucide="award"></i>
+                            <div class="stat-value">13+</div>
+                            <div class="stat-label">Years of Excellence</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clubs Section -->
+    <section id="wings" class="section clubs">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Technical Clubs</h2>
+                <p>Explore our diverse technical domains where innovation meets expertise</p>
+            </div>
+
+            <div class="club-categories">
+                <!-- Club buttons will be added dynamically by JavaScript -->
+            </div>
+
+            <div class="club-details">
+                <!-- Club details will be added dynamically by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section events">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Events & Hackathons</h2>
+                <p>Join our exciting events that challenge your skills and expand your knowledge</p>
+            </div>
+
+            <div class="events-slider">
+                <button class="slider-nav prev" aria-label="Previous slide">
+                    <i data-lucide="chevron-left"></i>
+                </button>
+                <button class="slider-nav next" aria-label="Next slide">
+                    <i data-lucide="chevron-right"></i>
+                </button>
+
+                <div class="slider-container">
+                    <!-- Events will be added dynamically by JavaScript -->
+                </div>
+
+                <div class="slider-pagination">
+                    <!-- Pagination dots will be added dynamically by JavaScript -->
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="#" class="btn btn-outline">View All Events</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section team">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Meet Our Team</h2>
+                <p>The talented individuals leading Technical Affairs' initiatives</p>
+            </div>
+
+            <div class="team-categories">
+                <!-- Team sections will be added dynamically by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Join Tech</h2>
+                <p>Interested in becoming a part of our technical community? Reach out to us!</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-form-container">
+                    <div class="form-header">
+                        <h3><i data-lucide="send"></i> Get in Touch</h3>
+                    </div>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">Area of Interest</label>
+                            <select id="interest" name="interest" required>
+                                <option value="">Select your interest</option>
+                                <option value="auv">AUV Society</option>
+                                <option value="cs">CS Club</option>
+                                <option value="eoic">EPiC Club</option>
+                                <option value="gdsc">GDSC IIITDM</option>
+                                <option value="ipd">IPD club</option>
+                                <option value="mars">MaRS</option>
+                                <option value="optica">Optica IIITDM Students Chapter</option>
+                                <option value="robotics">Robotics Club</option>
+                                <option value="sae">SAE Collegiate club of IIITDM Kancheepuram</option>
+                                <option value="asme">ASME IIITDM Stdents Section</option>
+                                <option value="ieee">IEEE Students Branch</option>
+                                <option value="tad">TAD Aerodesign Club</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your interests and experience..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Application</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div>
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div>
+                                <h4>Address</h4>
+                                <p>
+                                    Technical affairs, IIIT Kancheepuram<br>
+                                    Kandigai, Nellikuppam, Tamil Nadu,600127.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:technical.affairs@iiitdm.ac.in">technical.affairs@iiitdm.ac.in</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="phone"></i>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+911234567890">+91 123 456 7890</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recruitment-process">
+                        <h3>Recruitment Process</h3>
+                        <ol>
+                            <li>Submit your application via the form</li>
+                            <li>Technical assessment based on your area of interest</li>
+                            <li>Personal interview with club coordinators</li>
+                            <li>Selection and onboarding</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i data-lucide="code-2"></i>
+                        <span>Technical Affairs</span>
+                    </div>
+                    <p>
+                        The technical society of IIIT Kancheepuram fostering technical culture and innovation among students.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i data-lucide="github"></i></a>
+                        <a href="#"><i data-lucide="linkedin"></i></a>
+                        <a href="#"><i data-lucide="instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#wings">Technical Clubs</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#contact">Join Technical Club</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>
+                            <i data-lucide="map-pin"></i>
+                            <span>IIIT Kancheepuram, Kandigai, Nellikuppam, Tamil Nadu,600127.</span>
+                        </li>
+                        <li>
+                            <i data-lucide="mail"></i>
+                            <a href="mailto:technical.affairs@iiitdm.ac.in">technical.affairs@iiitdm.ac.in</a>
+                        </li>
+                        <li>
+                            <i data-lucide="phone"></i>
+                            <a href="tel:+911234567890">+91 123 456 7890</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <p>© <span id="current-year"></span> Technical Affairs, IIIT Kancheepuram. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+</body>
+</html>
